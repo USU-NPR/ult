@@ -1,0 +1,131 @@
+h1
+{
+    text-align: center;
+}
+
+#tabela
+{
+    border: 1px solid black;
+
+
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    min-height: 300px;
+    
+    /* background-color: rgba(0, 0, 255, 0.541); */
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+#tabela .celula
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.celula label
+{
+    /* background-color: red; */
+}   
+
+.item_celula
+{
+    /* background-color: red; */
+    border: 1px solid #000000;
+    /* border-radius: 15px; */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-height: 10%; */
+    min-height: 75px;
+    width: 350px;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+}
+
+.dados
+{
+    font-size: 1em;
+    font-weight: bold;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 245px;
+    height: 75px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: green; */
+}
+
+.img_ponto
+{   
+    margin: auto;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+.info
+{
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 0.9em;
+    justify-content: center;
+    margin-right: 10px;
+    /* background-color: pink; */
+    border-right: 1px solid black;
+}
+
+
+@media screen and (max-width:1000px)
+{
+    #tabela
+    {
+        border: 1px solid black;
+        background-color: brown;
+
+        border: 1px solid black;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    
+        min-height: 300px;
+        
+        /* background-color: rgba(0, 0, 255, 0.541); */
+    
+        /* flex-wrap: wrap; */
+    }
+
+    #tabela .celula
+{
+    background-color: yellow;
+    margin: 10px;
+    width: 80%;
+}
+}
